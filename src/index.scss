@@ -16,6 +16,11 @@ body {
 	color: var(--tg-theme-text-color);
 }
 
+header {
+	@apply flex justify-between ;
+}
+
+
 .container {
 	@apply max-w-[1248px] mx-auto p-6;
 }
